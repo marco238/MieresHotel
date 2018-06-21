@@ -19,6 +19,9 @@ body {
   height: 28px;
   width: 204px;
 }
+.navbar-div .tabs a {
+  text-decoration: none;
+}
 .navbar-div .tabs div {
   width: 120px;
   text-align: center;
@@ -111,6 +114,35 @@ body {
 }
 .section .plan-cards .card:hover {
   border: 1px solid #4ba7ee;
+}
+
+.plus {
+  position: relative;
+  border: 1px solid #DEE1E8;
+  margin: 30px auto;
+}
+.plus .options {
+  border: 1px solid #DEE1E8;
+  width: 97%;
+  margin: 10px auto;
+}
+
+.red-sign {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #E82E34;
+  padding: 0 40px;
+}
+.red-sign p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.services {
+  position: relative;
+  border: 1px solid #DEE1E8;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,12 +7,14 @@ import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PlanCardsComponent } from './components/plan-cards/plan-cards.component';
+import { ExperiencesComponent } from './components/experiences/experiences.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PlanCardsComponent
+    PlanCardsComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,

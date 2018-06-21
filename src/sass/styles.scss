@@ -18,6 +18,9 @@ body {
     justify-content: space-around;
     height: 28px;
     width: 204px;
+    a {
+      text-decoration: none;
+    }
     div {
       width: 120px;
       text-align: center;
@@ -113,4 +116,33 @@ body {
       border: 1px solid rgba(75, 167, 238, 1);
     }
   }
+}
+
+.plus {
+  position: relative;
+  border: 1px solid #DEE1E8;
+  margin: 30px auto;
+  .options {
+    border: 1px solid #DEE1E8;
+    width: 97%;
+    margin: 10px auto;
+  }
+}
+
+.red-sign {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #E82E34;
+  padding: 0 40px;
+  p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.services {
+  position: relative;
+  border: 1px solid #DEE1E8;
 }
