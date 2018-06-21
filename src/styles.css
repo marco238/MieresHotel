@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
 body {
   margin: 0;
   font-family: "Roboto Slab", serif;
@@ -50,7 +50,7 @@ body {
 }
 .section .hotel-name h1 span {
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
 }
 .section .hotel-name .stars {
   color: #FAC937;
@@ -70,18 +70,47 @@ body {
   width: 19%;
   height: 488px;
   position: relative;
-  margin: 20px;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid rgba(75, 167, 238, 0.3);
 }
 .section .plan-cards .card h3 {
-  width: 45%;
+  width: 40%;
   height: 80px;
   margin: 0 auto;
   font-size: 16px;
   color: #105AA3;
+  text-align: center;
+}
+.section .plan-cards .card ul {
+  font-weight: 300;
+  font-size: 15px;
+  color: #001841;
+}
+.section .plan-cards .card ul li {
+  margin-bottom: 5px;
 }
 .section .plan-cards .card .plan-selector {
   position: absolute;
   bottom: 0;
+  left: 0;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 300;
+  color: #616469;
+}
+.section .plan-cards .card .plan-selector input {
+  margin-right: 20px;
+  margin-left: -20px;
+}
+.section .plan-cards .card:hover {
+  border: 1px solid #4ba7ee;
 }
 
 /*# sourceMappingURL=styles.css.map */
