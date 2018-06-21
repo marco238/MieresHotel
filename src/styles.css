@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar-div {
+  height: 55px;
+  width: 93%;
+  margin: auto;
+  position: relative;
+}
+.navbar-div .tabs {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  justify-content: space-around;
+  height: 28px;
+  width: 204px;
+}
+.navbar-div .tabs div {
+  width: 120px;
+  text-align: center;
+}
+.navbar-div .tabs .active {
+  color: #003970;
+  border-bottom: 2px solid #003970;
+}
+.navbar-div .tabs .inactive {
+  color: #4BA7EE;
+}
+
+.section {
+  width: 93%;
+  margin: auto;
+}
+.section .hotel-name {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 60px auto;
+}
+.section .hotel-name h1 {
+  margin: 0;
+  color: #003970;
+  font-size: 30px;
+  font-weight: bold;
+}
+.section .hotel-name h1 span {
+  font-size: 24px;
+  font-weight: normal;
+}
+.section .hotel-name .stars {
+  color: #FAC937;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: -80px;
+}
+.section .hotel-name .stars i {
+  width: 15px;
+  font-size: 20px;
+}
+.section .plan-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.section .plan-cards .card {
+  width: 19%;
+  height: 488px;
+  position: relative;
+  margin: 20px;
+}
+.section .plan-cards .card h3 {
+  width: 45%;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #105AA3;
+}
+.section .plan-cards .card .plan-selector {
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
