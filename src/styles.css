@@ -126,6 +126,84 @@ body {
   width: 97%;
   margin: 10px auto;
 }
+.plus .options div {
+  margin-right: 30px;
+}
+.plus .options img {
+  width: 270px;
+}
+.plus .options h4 {
+  color: #033970;
+  font-size: 18px;
+  font-weight: bold;
+}
+.plus .options p {
+  color: #4E5156;
+  font-size: 14px;
+  font-weight: 300;
+}
+.plus .options ul {
+  color: #64676C;
+  font-size: 14px;
+  font-weight: 300;
+  height: 150px;
+}
+.plus .options .conditions {
+  color: #033970;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.plus .options .small-chevron {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.plus .options .small-chevron h5 {
+  color: #3B95ED;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.plus .options .small-chevron i {
+  color: #3B95ED;
+  height: 20px;
+}
+.plus .options .important-content {
+  display: flex;
+  position: relative;
+}
+.plus .options .extra-info {
+  width: 80%;
+  margin: auto;
+}
+
+.big-chevron {
+  padding: 20px;
+  display: flex;
+}
+.big-chevron i {
+  color: #4BA7EE;
+  height: 30px;
+  margin: 0;
+  font-size: 44px;
+}
+.big-chevron h3 {
+  color: #4BA7EE;
+  height: 30px;
+  width: 140px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.big-chevron p {
+  height: 30px;
+  margin: 10px 30px;
+  color: #105AA3;
+  font-size: 12px;
+  font-weight: 300;
+}
 
 .red-sign {
   position: absolute;
