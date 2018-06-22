@@ -125,6 +125,7 @@ body {
   border: 1px solid #DEE1E8;
   width: 97%;
   margin: 10px auto;
+  overflow: hidden;
 }
 .plus .options div {
   margin-right: 30px;
@@ -168,7 +169,7 @@ body {
 }
 .plus .options .small-chevron i {
   color: #3B95ED;
-  height: 20px;
+  height: 40px;
 }
 .plus .options .important-content {
   display: flex;
@@ -221,6 +222,24 @@ body {
 .services {
   position: relative;
   border: 1px solid #DEE1E8;
+  height: 100px;
+}
+
+.inactive {
+  height: 200px;
+}
+
+.big-chevron:hover {
+  cursor: pointer;
+}
+
+.bigPan {
+  height: 100px;
+  overflow: hidden;
+}
+
+.small-chevron:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

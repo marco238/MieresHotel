@@ -1,23 +1,24 @@
 <div class="section">
-  <div class="plus">
+  <div class="plus bigPan">
     <div class="red-sign">
       <p>EXCLUSIVO HOTELES.COM</p>
     </div>
-    <div class="big-chevron">
+    <div class="big-chevron" (click)="toogleDropdown(3)">
       <i class="material-icons">expand_more</i>
       <h3>Mejora tu estancia</h3>
       <p>Opciona</p>
     </div>
 
-    <div class="options">
+    <div class="options op1 inactive">
       <div class="important-content">
         <div>
           <img src="assets/img/yoga.png" alt="yoga">
         </div>
         <div>
           <h4>Olvídese de la rutina</h4>
-          <p>Cras vehicula vestibulum dapibus. Pellentesque auctor dolor et purus facilisis maximus. Mauris eget urna luctus, imperdiet neque nec, aliquet lorem. </p>
-          <div class="small-chevron">
+          <p>Las experiencias spa de agua tienen una presencia muy especial en SPA Sensations. No es extraño si consideramos que la mayor parte del planeta, así como del propio cuerpo humano, están compuestos de agua.
+             El arte de recrear experiencias de agua en variaciones ilimitadas es la base de la propuesta de SPA Sensations a sus clientes, aportando el refinamiento al baño y a la hidratación en todas sus formas. Un mundo mágico de posibilidades, más allá de la terapia y del que ahora usted, también podrá disfrutar.</p>
+          <div class="small-chevron" (click)="toogleDropdown(1)">
             <h5>Más información y condiciones</h5>
             <i class="material-icons">expand_more</i>
           </div>
@@ -38,7 +39,7 @@
       </div>
     </div>
 
-    <div class="options">
+    <div class="options op2 inactive">
       <div class="important-content">
         <div>
           <img src="assets/img/spa.png" alt="spa">
@@ -47,7 +48,7 @@
           <h4>Experiencias y programas SPA con agua</h4>
           <p>Las experiencias spa de agua tienen una presencia muy especial en SPA Sensations. No es extraño si consideramos que la mayor parte del planeta, así como del propio cuerpo humano, están compuestos de agua.
              El arte de recrear experiencias de agua en variaciones ilimitadas es la base de la propuesta de SPA Sensations a sus clientes, aportando el refinamiento al baño y a la hidratación en todas sus formas. Un mundo mágico de posibilidades, más allá de la terapia y del que ahora usted, también podrá disfrutar.</p>
-          <div class="small-chevron">
+          <div class="small-chevron sc2" (click)="toogleDropdown(2)">
             <h5>Más información y condiciones</h5>
             <i class="material-icons">expand_more</i>
           </div>

@@ -6,6 +6,5 @@ import { ExperiencesComponent } from './components/experiences/experiences.compo
 export const routes: Routes = [
   { path: 'tab1', component: PlanCardsComponent},
   { path: 'tab2', component: ExperiencesComponent},
-  { path: '', redirectTo: 'tab1', pathMatch: "full"},
-  { path: '**', redirectTo: 'tab1', pathMatch: "full"}
+  { path: '', redirectTo: 'tab1', pathMatch: "full"}
 ];
