@@ -1,12 +1,12 @@
 <div class="navbar-div">
   <div class="tabs">
-    <a routerLink="tab1">
-      <div class="active">
+    <a routerLink="tab1" (click)="toogleTabs()">
+      <div class="tab1 active">
         Tab 1
       </div>
     </a>
-    <a routerLink="tab2">
-      <div class="inactive">
+    <a routerLink="tab2" (click)="toogleTabs()">
+      <div class="tab2 inactive">
         Tab 2
       </div>
     </a>

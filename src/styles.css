@@ -99,21 +99,18 @@ body {
   left: 0;
   width: 70%;
   margin-bottom: 20px;
-  margin-left: 15%;
+  margin-left: 10%;
   padding: 10px;
   display: flex;
   justify-content: center;
-  border: 1px solid #fff;
   font-size: 16px;
   font-weight: 300;
   color: #616469;
+  cursor: pointer;
+  border: 1px solid #fff;
 }
-.section .plan-cards .card .plan-selector input {
-  margin-right: 20px;
-  margin-left: -20px;
-}
-.section .plan-cards .card:hover {
-  border: 1px solid #4ba7ee;
+.section .plan-cards .card .plan-selector:hover {
+  border: 1px solid rgba(75, 167, 238, 0.6);
 }
 
 .plus {
@@ -240,6 +237,55 @@ body {
 
 .small-chevron:hover {
   cursor: pointer;
+}
+
+.plan-selector input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.plan-selector:hover {
+  border: 1px solid #4ba7ee;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 8px 0 0 10px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.plan-selector:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.plan-selector input:checked ~ .checkmark {
+  background-color: #eee;
+  border: 1px solid #6DC138;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.plan-selector input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.plan-selector .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #6DC138;
 }
 
 /*# sourceMappingURL=styles.css.map */

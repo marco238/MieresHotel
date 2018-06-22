@@ -11,7 +11,7 @@ export class ExperiencesComponent implements OnInit {
   bigDropdown: any;
   firstExtraInfo: any;
   secondExtraInfo: any;
-  secondExtraInfo: any;
+  bigPanel: any;
 
   constructor() { }
 
