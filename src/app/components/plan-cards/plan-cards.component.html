@@ -10,43 +10,43 @@
   </div>
 
   <div class="plan-cards">
-    <div class="card">
+    <div class="card" [style.border]="this.card1.checked ? '1px solid #326C96' : ''">
       <h3>Solo alojamiento</h3>
       <ul>
         <li>Sin regimen</li>
         <li>Botella de agua de bienvenida</li>
       </ul>
-      <label class="plan-selector">Elegir régimen
+      <label class="plan-selector c1" (click)="refresh()" [style.border]="this.card1.checked ? '1px solid #326C96' : ''">Elegir régimen
         <input type="radio" checked="checked" name="radio">
         <span class="checkmark"></span>
       </label>
     </div>
 
-    <div class="card">
+    <div class="card" [style.border]="this.card2.checked ? '1px solid #326C96' : ''">
       <h3>Alojamiento y Desayuno</h3>
       <ul>
         <li>Desayuno buffet completo</li>
       </ul>
-      <label class="plan-selector">Elegir régimen
+      <label class="plan-selector c2" (click)="refresh()" [style.border]="this.card2.checked ? '1px solid #326C96' : ''">Elegir régimen
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
     </div>
 
-    <div class="card">
+    <div class="card" [style.border]="this.card3.checked ? '1px solid #326C96' : ''">
       <h3>Media Pension</h3>
       <ul>
         <li>Desayuno buffet completo</li>
         <li>Cena buffet</li>
         <li>No incluye</li>
       </ul>
-      <label class="plan-selector">Elegir régimen
+      <label class="plan-selector c3" (click)="refresh()" [style.border]="this.card3.checked ? '1px solid #326C96' : ''">Elegir régimen
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
     </div>
 
-    <div class="card">
+    <div class="card" [style.border]="this.card4.checked ? '1px solid #326C96' : ''">
       <h3>Todo incluido</h3>
       <ul>
         <li>Dispondrás de comida y bebida todo el día y durante toda tu estancia.</li>
@@ -54,13 +54,13 @@
         <li>Snack Bar</li>
         <li>Sevicio de bares (marcas nacionales)</li>
       </ul>
-      <label class="plan-selector">Elegir régimen
+      <label class="plan-selector c4" (click)="refresh()" [style.border]="this.card4.checked ? '1px solid #326C96' : ''">Elegir régimen
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
     </div>
 
-    <div class="card">
+    <div class="card" [style.border]="this.card5.checked ? '1px solid #326C96' : ''">
       <h3>Unlimited Services</h3>
       <ul>
         <li>Restaurante buffet con bebidas Premium</li>
@@ -73,7 +73,7 @@
         <li>Parking gratuito</li>
         <li>Lavanderia</li>
       </ul>
-      <label class="plan-selector">Elegir régimen
+      <label class="plan-selector c5" (click)="refresh()" [style.border]="this.card5.checked ? '1px solid #326C96' : ''">Elegir régimen
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
