@@ -1,0 +1,29 @@
+.big-chevron {
+  padding: 20px;
+  display: flex;
+  i {
+    color: $lightBlue;
+    height: 30px;
+    margin: 0;
+    font-size: 44px;
+  }
+  h3 {
+    color: $lightBlue;
+    height: 30px;
+    width: 140px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p {
+    height: 30px;
+    margin: 10px 30px;
+    color: $halfBlue;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.big-chevron:hover {
+  cursor: pointer;
+}

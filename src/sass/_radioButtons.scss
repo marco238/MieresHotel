@@ -1,0 +1,48 @@
+.plan-selector input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.plan-selector:hover {
+  border: 1px solid $lightBlue;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px 0 0 10px;
+    height: 25px;
+    width: 25px;
+    background-color: $white;
+    border-radius: 50%;
+}
+
+.plan-selector:hover input ~ .checkmark {
+    background-color: $lightgrey;
+}
+
+.plan-selector input:checked ~ .checkmark {
+    background-color: $lightgrey;
+    border: 1px solid $green;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.plan-selector input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.plan-selector .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: $green;
+}

@@ -1,0 +1,29 @@
+.navbar-div {
+  height: 55px;
+  width: 93%;
+  margin: auto;
+  position: relative;
+  .tabs {
+    display: flex;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    justify-content: space-around;
+    height: 28px;
+    width: 204px;
+    a {
+      text-decoration: none;
+    }
+    div {
+      width: 120px;
+      text-align: center;
+    }
+    .active {
+      color: $darkBlue;
+      border-bottom: 2px solid $darkBlue;
+    }
+    .inactive {
+      color: $lightBlue;
+    }
+  }
+}

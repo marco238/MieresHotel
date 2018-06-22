@@ -1,12 +1,12 @@
 <div class="navbar-div">
   <div class="tabs">
-    <a routerLink="tab1" (click)="toogleTabs()">
-      <div class="tab1 active">
+    <a routerLink="tab1" (click)="toogleTabs(1)">
+      <div [ngClass]="tab1IsActive ? 'active' : 'inactive'">
         Tab 1
       </div>
     </a>
-    <a routerLink="tab2" (click)="toogleTabs()">
-      <div class="tab2 inactive">
+    <a routerLink="tab2" (click)="toogleTabs(2)">
+      <div [ngClass]="!tab1IsActive ? 'active' : 'inactive'">
         Tab 2
       </div>
     </a>

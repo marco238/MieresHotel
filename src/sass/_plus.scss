@@ -1,0 +1,64 @@
+.plus {
+  position: relative;
+  border: 1px solid $lightgrey;
+  margin: 30px auto;
+  .options {
+    border: 1px solid $lightgrey;
+    width: 97%;
+    margin: 10px auto;
+    overflow: hidden;
+    // transition: all 0.5s ease-out;
+    div {
+      margin-right: 30px;
+    }
+    img {
+      width: 270px;
+    }
+    h4 {
+      color: $darkBlue;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    p {
+      color: $halfgrey;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    ul {
+      color: $grey;
+      font-size: 14px;
+      font-weight: 300;
+      height: 150px;
+    }
+    .conditions {
+      color: $darkBlue;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .small-chevron {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 20px;
+      h5 {
+        color: $lightBlue;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+      }
+      i {
+        color: $lightBlue;
+        height: 40px;
+      }
+    }
+    .important-content {
+      display: flex;
+      position: relative;
+    }
+    .extra-info {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
