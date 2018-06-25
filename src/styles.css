@@ -361,4 +361,13 @@ body {
   }
 }
 
+@media screen and (max-width:400px) {
+  .plus .options {
+    height: 800px;
+  }
+  .plus .options .conditions {
+    margin-top: 220px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
